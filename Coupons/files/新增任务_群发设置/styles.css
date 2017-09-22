@@ -22,7 +22,7 @@
 #u1092 {
   position:absolute;
   left:144px;
-  top:1112px;
+  top:971px;
   width:403px;
   height:316px;
   font-family:'Microsoft YaHei UI';
@@ -51,7 +51,7 @@
   top:10px;
   width:81px;
   height:25px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -466,7 +466,7 @@
   top:550px;
   width:25px;
   height:25px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -769,7 +769,7 @@
   top:725px;
   width:25px;
   height:25px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -815,10 +815,10 @@
 #u1151 {
   position:absolute;
   left:351px;
-  top:1379px;
+  top:1238px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -841,10 +841,10 @@
 #u1153 {
   position:absolute;
   left:256px;
-  top:1379px;
+  top:1238px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -894,7 +894,7 @@
 #u1157 {
   position:absolute;
   left:206px;
-  top:1120px;
+  top:979px;
   width:280px;
   height:210px;
 }
@@ -916,7 +916,7 @@
 #u1159 {
   position:absolute;
   left:203px;
-  top:1315px;
+  top:1174px;
   width:286px;
   height:48px;
   font-family:'Microsoft YaHei UI';
@@ -941,7 +941,7 @@
 #u1161 {
   position:absolute;
   left:706px;
-  top:1112px;
+  top:971px;
   width:403px;
   height:316px;
   font-family:'Microsoft YaHei UI';
@@ -967,10 +967,10 @@
 #u1163 {
   position:absolute;
   left:913px;
-  top:1379px;
+  top:1238px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -993,10 +993,10 @@
 #u1165 {
   position:absolute;
   left:818px;
-  top:1379px;
+  top:1238px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1019,7 +1019,7 @@
 #u1167 {
   position:absolute;
   left:768px;
-  top:1120px;
+  top:979px;
   width:280px;
   height:210px;
 }
@@ -1041,7 +1041,7 @@
 #u1169 {
   position:absolute;
   left:765px;
-  top:1315px;
+  top:1174px;
   width:286px;
   height:48px;
   font-family:'Microsoft YaHei UI';
