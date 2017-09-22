@@ -2031,14 +2031,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:511px;
+  width:593px;
   height:25px;
 }
 #u155 {
   position:absolute;
   left:76px;
   top:1510px;
-  width:510px;
+  width:592px;
   height:24px;
   font-family:'Microsoft YaHei UI';
   font-weight:400;
@@ -2051,8 +2051,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:510px;
-  white-space:nowrap;
+  width:592px;
+  word-wrap:break-word;
 }
 #u157_img {
   position:absolute;
