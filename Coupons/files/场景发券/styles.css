@@ -25,7 +25,7 @@
   top:10px;
   width:81px;
   height:25px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:20px;
@@ -1044,7 +1044,7 @@
 #u80 {
   position:absolute;
   left:40px;
-  top:1728px;
+  top:1714px;
   width:743px;
   height:144px;
   font-family:'Microsoft YaHei UI';
@@ -1100,7 +1100,7 @@
   top:1157px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1126,7 +1126,7 @@
   top:1157px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1228,7 +1228,7 @@
   top:1612px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1254,7 +1254,7 @@
   top:1612px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1437,7 +1437,7 @@
   top:1151px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1463,7 +1463,7 @@
   top:1151px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1592,7 +1592,7 @@
   top:1611px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1618,7 +1618,7 @@
   top:1611px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1694,7 +1694,7 @@
   top:822px;
   width:81px;
   height:24px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:16px;
@@ -1774,7 +1774,7 @@
   top:1151px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1800,7 +1800,7 @@
   top:1151px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1929,7 +1929,7 @@
   top:1611px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -1955,7 +1955,7 @@
   top:1611px;
   width:85px;
   height:40px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:12px;
@@ -2039,6 +2039,60 @@
   line-height:24px;
 }
 #u157 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:479px;
+  word-wrap:break-word;
+}
+#u158_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:480px;
+  height:25px;
+}
+#u158 {
+  position:absolute;
+  left:1182px;
+  top:856px;
+  width:479px;
+  height:24px;
+  font-family:'Microsoft YaHei UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:rgba(0, 0, 255, 0.8);
+  line-height:24px;
+}
+#u159 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:479px;
+  word-wrap:break-word;
+}
+#u160_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:480px;
+  height:25px;
+}
+#u160 {
+  position:absolute;
+  left:1182px;
+  top:1268px;
+  width:479px;
+  height:24px;
+  font-family:'Microsoft YaHei UI';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:rgba(0, 0, 255, 0.8);
+  line-height:24px;
+}
+#u161 {
   position:absolute;
   left:0px;
   top:0px;
