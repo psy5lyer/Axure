@@ -3708,14 +3708,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:90px;
+  width:98px;
   height:21px;
 }
 #u822 {
   position:absolute;
   left:40px;
   top:527px;
-  width:89px;
+  width:97px;
   height:20px;
   font-family:'Microsoft YaHei UI';
   font-weight:400;
@@ -3726,8 +3726,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:89px;
-  word-wrap:break-word;
+  width:97px;
+  white-space:nowrap;
 }
 #u824_img {
   position:absolute;
@@ -3807,8 +3807,8 @@
 }
 #u830 {
   position:absolute;
-  left:532px;
-  top:623px;
+  left:79px;
+  top:1071px;
   width:258px;
   height:308px;
 }
@@ -3854,8 +3854,8 @@
 }
 #u834 {
   position:absolute;
-  left:40px;
-  top:1062px;
+  left:492px;
+  top:631px;
   width:389px;
   height:317px;
 }
@@ -4919,7 +4919,7 @@
 #u918 {
   position:absolute;
   left:492px;
-  top:2088px;
+  top:2082px;
   width:413px;
   height:24px;
   font-family:'Microsoft YaHei UI';
