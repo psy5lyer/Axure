@@ -3,7 +3,7 @@
   background-image:none;
   position:static;
   left:auto;
-  width:1717px;
+  width:1476px;
   margin-left:0;
   margin-right:0;
   text-align:left;
@@ -2592,15 +2592,15 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:601px;
-  height:31px;
+  width:372px;
+  height:61px;
 }
 #u1571 {
   position:absolute;
-  left:1117px;
-  top:100px;
-  width:600px;
-  height:30px;
+  left:1042px;
+  top:87px;
+  width:371px;
+  height:60px;
   font-family:'Microsoft YaHei UI';
   font-weight:400;
   font-style:normal;
@@ -2611,8 +2611,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:600px;
-  white-space:nowrap;
+  width:371px;
+  word-wrap:break-word;
 }
 #u1573_img {
   position:absolute;
