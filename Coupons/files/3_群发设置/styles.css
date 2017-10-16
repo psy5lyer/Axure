@@ -227,7 +227,7 @@
 #u1285 {
   position:absolute;
   left:40px;
-  top:165px;
+  top:177px;
   width:57px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -244,7 +244,7 @@
 #u1287 {
   position:absolute;
   left:107px;
-  top:165px;
+  top:177px;
   width:116px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -274,7 +274,7 @@
 #u1289 {
   position:absolute;
   left:211px;
-  top:585px;
+  top:616px;
   width:94px;
   height:30px;
   font-family:'Microsoft YaHei UI';
@@ -294,14 +294,14 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:30px;
+  width:58px;
   height:19px;
 }
 #u1291 {
   position:absolute;
   left:40px;
   top:434px;
-  width:29px;
+  width:57px;
   height:18px;
   font-family:'Microsoft YaHei UI';
   font-weight:400;
@@ -311,13 +311,13 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:29px;
+  width:57px;
   white-space:nowrap;
 }
 #u1293 {
   position:absolute;
   left:174px;
-  top:430px;
+  top:461px;
   width:92px;
   height:26px;
 }
@@ -345,7 +345,7 @@
 #u1294 {
   position:absolute;
   left:276px;
-  top:434px;
+  top:465px;
   width:29px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -362,7 +362,7 @@
 #u1296 {
   position:absolute;
   left:241px;
-  top:165px;
+  top:177px;
   width:132px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -529,7 +529,7 @@
 #u1308 {
   position:absolute;
   left:107px;
-  top:434px;
+  top:465px;
   width:57px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -546,7 +546,7 @@
 #u1310 {
   position:absolute;
   left:174px;
-  top:475px;
+  top:506px;
   width:92px;
   height:26px;
 }
@@ -574,7 +574,7 @@
 #u1311 {
   position:absolute;
   left:276px;
-  top:479px;
+  top:510px;
   width:15px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -598,7 +598,7 @@
 #u1313 {
   position:absolute;
   left:107px;
-  top:479px;
+  top:510px;
   width:57px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -615,7 +615,7 @@
 #u1315 {
   position:absolute;
   left:281px;
-  top:521px;
+  top:552px;
   width:92px;
   height:26px;
 }
@@ -643,7 +643,7 @@
 #u1316 {
   position:absolute;
   left:380px;
-  top:525px;
+  top:556px;
   width:15px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -667,7 +667,7 @@
 #u1318 {
   position:absolute;
   left:244px;
-  top:525px;
+  top:556px;
   width:29px;
   height:18px;
   font-family:'Microsoft YaHei UI';
@@ -684,7 +684,7 @@
 #u1320 {
   position:absolute;
   left:107px;
-  top:519px;
+  top:550px;
   width:130px;
   height:30px;
 }
@@ -714,7 +714,7 @@
 #u1321 {
   position:absolute;
   left:107px;
-  top:585px;
+  top:616px;
   width:94px;
   height:30px;
   font-family:'Microsoft YaHei UI';
@@ -740,7 +740,7 @@
 #u1323 {
   position:absolute;
   left:315px;
-  top:427px;
+  top:458px;
   width:25px;
   height:25px;
   font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
@@ -1314,4 +1314,54 @@
   width:655px;
   visibility:hidden;
   word-wrap:break-word;
+}
+#u1370_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:620px;
+  height:19px;
+}
+#u1370 {
+  position:absolute;
+  left:40px;
+  top:147px;
+  width:619px;
+  height:18px;
+  font-family:'Microsoft YaHei UI';
+  font-weight:400;
+  font-style:normal;
+  color:#FF0000;
+}
+#u1371 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:619px;
+  white-space:nowrap;
+}
+#u1372_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:548px;
+  height:19px;
+}
+#u1372 {
+  position:absolute;
+  left:107px;
+  top:433px;
+  width:547px;
+  height:18px;
+  font-family:'Microsoft YaHei UI';
+  font-weight:400;
+  font-style:normal;
+  color:rgba(40, 40, 40, 0.6);
+}
+#u1373 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:547px;
+  white-space:nowrap;
 }
