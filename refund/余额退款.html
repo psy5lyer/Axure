@@ -109,7 +109,7 @@
         <img id="u12_img" class="img " src="images/余额退款/u12.png"/>
         <!-- Unnamed () -->
         <div id="u13" class="text" style="visibility: visible;">
-          <p><span>系统将根据用户最近一次充值优惠记录，计算出建议实际退款金额、减少积分数，商家可根据实际情况修改数值。</span></p><p><span>若充值时送次卡、优惠券等，这些优惠信息不作退回。</span></p><p><span>充值退款仅支持线下现金退款。</span></p>
+          <p><span>根据用户最近一次充值优惠记录，计算出建议实际退款金额、减少积分数，商家可修改数值。</span></p><p><span>若充值时送次卡、优惠券等，这些优惠信息不作退回。</span></p><p><span>充值退款仅支持线下现金退款。</span></p>
         </div>
       </div>
 
@@ -226,7 +226,7 @@
         <img id="u38_img" class="img " src="images/余额退款/u38.png"/>
         <!-- Unnamed () -->
         <div id="u39" class="text" style="visibility: visible;">
-          <p style="line-height:20px;"><span>例如，用户最近一次充200送5元送5积分，退款100余额时：</span></p><p style="line-height:24px;"><span>实退金额=（1-5/200）×100=97（抹角分向下取整）</span></p><p><span>减少积分=5/200×100=3（向上取整）</span></p><p><span>另外，减少积分数不能小于用户当前积分。</span></p>
+          <p><span>例如，用户最近一次充100送50元送10积分，退款100余额时：</span></p><p><span>实退金额=100/(100+50)×100=67（抹角分向下取整）</span></p><p><span>减少积分=10/(100+50)×100=34（向上取整），减少积分数不能小于用户当前积分</span></p>
         </div>
       </div>
 
@@ -235,7 +235,7 @@
         <img id="u40_img" class="img " src="images/余额退款/u40.png"/>
         <!-- Unnamed () -->
         <div id="u41" class="text" style="visibility: visible;">
-          <p><span>查看示例</span></p>
+          <p><span>？</span></p>
         </div>
       </div>
 
@@ -244,7 +244,7 @@
         <img id="u42_img" class="img " src="images/余额退款/u42.png"/>
         <!-- Unnamed () -->
         <div id="u43" class="text" style="visibility: visible;">
-          <p style="line-height:24px;"><span style="color:rgba(0, 0, 255, 0.8);">商家可输入退款余额的数值，点击“全部余额”自动填充数值。</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">根据商家输入的退款余额，自动计算实退金额和减少积分数，并自动填充至输入框和右侧提示文案；商家可修改数值。</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">点击“确定”减少对应的余额。</span></p><p><span style="color:rgba(0, 0, 255, 0.8);"><br></span></p><p><span style="color:rgba(0, 0, 255, 0.8);">实退金额和减少积分根据最近一次充值优惠记录，而非充值方案，计算规则：</span></p><p style="line-height:20px;"><span>例如，用户最近一次充200送5元送5积分，退款100余额时：</span></p><p style="line-height:24px;"><span>实退金额=（1-5/200）×100=97（抹角分向下取整）</span></p><p><span>减少积分=5/200×100=3（向上取整）</span></p><p><span>另外，减少积分数不能小于用户当前积分。</span></p><p><span><br></span></p><p><span><br></span></p>
+          <p style="line-height:24px;"><span style="color:rgba(0, 0, 255, 0.8);">商家可输入退款余额的数值，点击“全部余额”自动填充数值。</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">根据商家输入的退款余额，自动计算实退金额和减少积分数，并自动填充至输入框和右侧提示文案；商家可修改数值。</span></p><p><span style="color:rgba(0, 0, 255, 0.8);"><br></span></p><p><span style="color:rgba(0, 0, 255, 0.8);">实退金额和减少积分根据最近一次充值优惠记录，而非充值方案，计算规则：</span></p><p style="line-height:20px;"><span>例如，用户最近一次充100送50元送10积分，退款100余额时：</span></p><p><span>实退金额=100/(100+50)×100=67（抹角分向下取整）</span></p><p><span>减少积分=10/(100+50)×100=34（向上取整），减少积分数不能小于用户当前积分</span></p><p style="line-height:24px;"><span style="color:rgba(0, 0, 255, 0.8);"><br></span></p><p><span style="color:rgba(0, 0, 255, 0.8);">计算规则</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">最一次充值，充a，送b元，送c积分，假设退款余额为x</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">则实退金额=a/(a+b)*x</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">减少积分=c/(a+b)*x</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">若c=0或空，则减少积分为0</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">当计算实退金额&lt;1，则显示1元。</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">实退金额不能为0或空，减少积分必须是正整数，且不能大于用户总积分</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">退款余额不能大于可用余额</span></p><p><span style="color:rgba(0, 0, 255, 0.8);"><br></span></p><p><span style="color:rgba(0, 0, 255, 0.8);">点击确认后，用户余额=之前余额-退款余额</span></p>
         </div>
       </div>
 
@@ -258,83 +258,83 @@
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u46" class="ax_default paragraph">
+      <div id="u46" class="ax_default box_1">
         <img id="u46_img" class="img " src="images/余额退款/u46.png"/>
         <!-- Unnamed () -->
         <div id="u47" class="text" style="visibility: visible;">
-          <p><span style="color:rgba(0, 0, 255, 0.8);">在交易订单中：</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">付款时间：即余额退款时间</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">付款人：会员昵称</span></p><p><span style="color:#FF0000;">订单类型：余额退款【新增】</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">付款理由：余额退款</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">支付方式：现金支付</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">订单来源：卡券平台 </span></p><p><span style="color:rgba(0, 0, 255, 0.8);">实收金额：即实退金额</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">订单状态：已支付</span><span style="color:#FF0000;">【不可退款】</span></p><p><span style="color:#FF0000;">//余额退款的支出在“退款总额/笔数”中体现，不在“实收总额/笔数”中体现//</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Image) -->
-      <div id="u48" class="ax_default image">
-        <img id="u48_img" class="img " src="images/余额退款/u48.png"/>
-        <!-- Unnamed () -->
-        <div id="u49" class="text" style="display: none; visibility: hidden">
-          <p><span></span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u50" class="ax_default box_1">
-        <img id="u50_img" class="img " src="images/余额退款/u50.png"/>
-        <!-- Unnamed () -->
-        <div id="u51" class="text" style="visibility: visible;">
           <p><span>在交易订单中</span></p>
         </div>
       </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u52" class="ax_default image">
-        <img id="u52_img" class="img " src="images/余额退款/u52.png"/>
-        <!-- Unnamed () -->
-        <div id="u53" class="text" style="display: none; visibility: hidden">
-          <p><span></span></p>
-        </div>
-      </div>
-
       <!-- Unnamed (Rectangle) -->
-      <div id="u54" class="ax_default paragraph">
-        <img id="u54_img" class="img " src="images/余额退款/u54.png"/>
+      <div id="u48" class="ax_default box_1">
+        <img id="u48_img" class="img " src="images/余额退款/u46.png"/>
         <!-- Unnamed () -->
-        <div id="u55" class="text" style="visibility: visible;">
-          <p><span style="color:rgba(0, 0, 255, 0.8);">在支付详情中</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">商品名称：余额退款</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">支付金额：即实退金额</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">订单编号：23423423</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">付款方式：本平台-现金支付</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">支付者：会员昵称</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">支付时间：退款时间</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">支付状态：已支付</span></p><p><span style="color:rgba(0, 0, 255, 0.8);"><br></span></p><p><span style="color:rgba(0, 0, 255, 0.8);">订单备注：余额退款123213.11元，实退1231.12元，减少312积分</span></p><p><span style="color:rgba(0, 0, 255, 0.8);"><br></span></p><p><span style="color:rgba(0, 0, 255, 0.8);">订单金额：-￥100</span><span style="color:#FF0000;">【金额为负数】</span></p><p><span style="color:rgba(0, 0, 255, 0.8);">实付金额：-￥100</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u56" class="ax_default box_1">
-        <img id="u56_img" class="img " src="images/余额退款/u50.png"/>
-        <!-- Unnamed () -->
-        <div id="u57" class="text" style="visibility: visible;">
+        <div id="u49" class="text" style="visibility: visible;">
           <p><span>在余额消耗中</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Image) -->
-      <div id="u58" class="ax_default image">
-        <img id="u58_img" class="img " src="images/余额退款/u58.png"/>
+      <div id="u50" class="ax_default image">
+        <img id="u50_img" class="img " src="images/余额退款/u50.png"/>
         <!-- Unnamed () -->
-        <div id="u59" class="text" style="display: none; visibility: hidden">
+        <div id="u51" class="text" style="display: none; visibility: hidden">
           <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u60" class="ax_default paragraph">
-        <img id="u60_img" class="img " src="images/余额退款/u60.png"/>
+      <div id="u52" class="ax_default paragraph">
+        <img id="u52_img" class="img " src="images/余额退款/u52.png"/>
         <!-- Unnamed () -->
-        <div id="u61" class="text" style="visibility: visible;">
-          <p><span>在余额消耗中</span></p><p><span>会员名称/昵称：昵称</span></p><p><span>消耗金额：余额退款金额</span></p><p><span>变更类型：余额退款【新增】</span></p><p><span>门店：操作人门店</span></p><p><span>操作人：操作人</span></p><p><span>支付方式：现金支付</span></p><p><span>支付时间：退款时间</span></p><p><span>支付信息备注：实退100元，减少23积分</span></p>
+        <div id="u53" class="text" style="visibility: visible;">
+          <p><span>在余额消耗中</span></p><p><span>会员名称/昵称：昵称</span></p><p><span>消耗金额：余额退款金额</span></p><p><span>变更类型：余额退款【新增】</span></p><p><span>门店：操作人门店</span></p><p><span>操作人：操作人</span></p><p><span>支付方式：现金退款</span></p><p><span>支付时间：退款时间</span></p><p><span>支付信息备注：实退100元，减少23积分</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
-      <div id="u62" class="ax_default box_1">
-        <img id="u62_img" class="img " src="images/余额退款/u50.png"/>
+      <div id="u54" class="ax_default box_1">
+        <img id="u54_img" class="img " src="images/余额退款/u46.png"/>
+        <!-- Unnamed () -->
+        <div id="u55" class="text" style="visibility: visible;">
+          <p><span>在积分明细中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u56" class="ax_default image">
+        <img id="u56_img" class="img " src="images/余额退款/u56.png"/>
+        <!-- Unnamed () -->
+        <div id="u57" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u58" class="ax_default paragraph">
+        <img id="u58_img" class="img " src="images/余额退款/u58.png"/>
+        <!-- Unnamed () -->
+        <div id="u59" class="text" style="visibility: visible;">
+          <p><span>在积分明细中</span></p><p><span>时间：即退款时间</span></p><p><span>会员卡号</span></p><p><span>变更类型：积分退回</span></p><p><span>数值：-23</span></p><p><span>来源：余额退款</span></p><p><span>门店：操作人门店</span></p><p><span>备注：余额退款减少积分</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u60" class="ax_default box_1">
+        <img id="u60_img" class="img " src="images/余额退款/u60.png"/>
+        <!-- Unnamed () -->
+        <div id="u61" class="text" style="visibility: visible;">
+          <p><span>在用户画像-会员权益-积分详情</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u62" class="ax_default paragraph">
+        <img id="u62_img" class="img " src="images/余额退款/u62.png"/>
         <!-- Unnamed () -->
         <div id="u63" class="text" style="visibility: visible;">
-          <p><span>在积分明细中</span></p>
+          <p><span>来源/消耗：消耗</span></p><p><span>积分：减少的积分值</span></p><p><span>时间：余额退款时间</span></p><p><span>变更类型：积分退回</span></p><p><span>备注：余额退款减少积分</span></p>
         </div>
       </div>
 
@@ -347,21 +347,21 @@
         </div>
       </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u66" class="ax_default paragraph">
+      <!-- Unnamed (Image) -->
+      <div id="u66" class="ax_default image">
         <img id="u66_img" class="img " src="images/余额退款/u66.png"/>
         <!-- Unnamed () -->
-        <div id="u67" class="text" style="visibility: visible;">
-          <p><span>在积分明细中</span></p><p><span>时间：即退款时间</span></p><p><span>会员卡号</span></p><p><span>变更类型：积分减少</span></p><p><span>数值：-23</span></p><p><span>来源：余额退款</span></p><p><span>门店：操作人门店</span></p><p><span>备注：余额退款减少积分</span></p>
+        <div id="u67" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
       <div id="u68" class="ax_default box_1">
-        <img id="u68_img" class="img " src="images/余额退款/u68.png"/>
+        <img id="u68_img" class="img " src="images/余额退款/u60.png"/>
         <!-- Unnamed () -->
         <div id="u69" class="text" style="visibility: visible;">
-          <p><span>在用户画像-会员权益-积分详情</span></p>
+          <p><span>在用户画像-会员权益-余额详情中</span></p>
         </div>
       </div>
 
@@ -370,34 +370,34 @@
         <img id="u70_img" class="img " src="images/余额退款/u70.png"/>
         <!-- Unnamed () -->
         <div id="u71" class="text" style="visibility: visible;">
-          <p><span>来源/消耗：消耗</span></p><p><span>积分：减少的积分值</span></p><p><span>时间：余额退款时间</span></p><p><span>变更类型：余额退款减少积分</span></p><p><span>备注：余额退款减少积分</span></p>
+          <p><span>来源/消耗：消耗</span></p><p><span>金额：退款余额</span></p><p><span>时间：余额退款时间</span></p><p><span>支付方式：会员卡余额支付【暂时不能改】</span></p><p><span>变更类型：会员余额退款</span></p><p><span>支付备注信息：实退100元，减少23积分</span></p>
         </div>
       </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u72" class="ax_default image">
-        <img id="u72_img" class="img " src="images/余额退款/u72.png"/>
+      <!-- Unnamed (Rectangle) -->
+      <div id="u72" class="ax_default box_1">
+        <img id="u72_img" class="img " src="images/余额退款/u60.png"/>
         <!-- Unnamed () -->
-        <div id="u73" class="text" style="display: none; visibility: hidden">
-          <p><span></span></p>
+        <div id="u73" class="text" style="visibility: visible;">
+          <p><span>在用户画像-会员权益-消费记录中</span></p>
         </div>
       </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u74" class="ax_default image">
+      <!-- Unnamed (Rectangle) -->
+      <div id="u74" class="ax_default paragraph">
         <img id="u74_img" class="img " src="images/余额退款/u74.png"/>
         <!-- Unnamed () -->
-        <div id="u75" class="text" style="display: none; visibility: hidden">
-          <p><span></span></p>
+        <div id="u75" class="text" style="visibility: visible;">
+          <p><span>在消费记录中无记录，仅在退款订单中展示</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
       <div id="u76" class="ax_default box_1">
-        <img id="u76_img" class="img " src="images/余额退款/u68.png"/>
+        <img id="u76_img" class="img " src="images/余额退款/u60.png"/>
         <!-- Unnamed () -->
         <div id="u77" class="text" style="visibility: visible;">
-          <p><span>在用户画像-会员权益-余额详情中</span></p>
+          <p><span>在用户端--积分详情中</span></p>
         </div>
       </div>
 
@@ -406,25 +406,25 @@
         <img id="u78_img" class="img " src="images/余额退款/u78.png"/>
         <!-- Unnamed () -->
         <div id="u79" class="text" style="visibility: visible;">
-          <p><span>来源/消耗：消耗</span></p><p><span>金额：退款余额</span></p><p><span>时间：余额退款时间</span></p><p><span>支付方式：现金支付</span></p><p><span>变更类型：余额退款</span></p><p><span>支付备注信息：实退100元，减少23积分</span></p>
+          <p><span>变更类型：余额退款减少积分</span></p><p><span>时间：余额退款时间</span></p><p><span>数值：减少的积分数值</span></p>
         </div>
       </div>
 
       <!-- Unnamed (Rectangle) -->
       <div id="u80" class="ax_default box_1">
-        <img id="u80_img" class="img " src="images/余额退款/u68.png"/>
+        <img id="u80_img" class="img " src="images/余额退款/u60.png"/>
         <!-- Unnamed () -->
         <div id="u81" class="text" style="visibility: visible;">
-          <p><span>在用户画像-会员权益-消费记录中</span></p>
+          <p><span>在用户端--余额明细中</span></p>
         </div>
       </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u82" class="ax_default image">
+      <!-- Unnamed (Rectangle) -->
+      <div id="u82" class="ax_default paragraph">
         <img id="u82_img" class="img " src="images/余额退款/u82.png"/>
         <!-- Unnamed () -->
-        <div id="u83" class="text" style="display: none; visibility: hidden">
-          <p><span></span></p>
+        <div id="u83" class="text" style="visibility: visible;">
+          <p><span>变更类型：余额退款</span></p><p><span>时间：余额退款时间</span></p><p><span>数值：余额退款金额，非实退金额</span></p>
         </div>
       </div>
 
@@ -433,52 +433,7 @@
         <img id="u84_img" class="img " src="images/余额退款/u84.png"/>
         <!-- Unnamed () -->
         <div id="u85" class="text" style="visibility: visible;">
-          <p><span>来源/消耗：来源</span></p><p><span>金额：实退金额，非实退金额</span></p><p><span>时间：余额退款时间</span></p><p><span>门店：操作人门店</span></p><p><span>支付方式：现金支付</span></p><p><span>变更类型：余额退款</span></p><p><span>支付备注信息：余额退款123.34元，实退100元，减少23积分</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u86" class="ax_default box_1">
-        <img id="u86_img" class="img " src="images/余额退款/u68.png"/>
-        <!-- Unnamed () -->
-        <div id="u87" class="text" style="visibility: visible;">
-          <p><span>在用户端--积分详情中</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u88" class="ax_default paragraph">
-        <img id="u88_img" class="img " src="images/余额退款/u88.png"/>
-        <!-- Unnamed () -->
-        <div id="u89" class="text" style="visibility: visible;">
-          <p><span>变更类型：余额退款减少积分</span></p><p><span>时间：余额退款时间</span></p><p><span>数值：减少的积分数值</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u90" class="ax_default box_1">
-        <img id="u90_img" class="img " src="images/余额退款/u68.png"/>
-        <!-- Unnamed () -->
-        <div id="u91" class="text" style="visibility: visible;">
-          <p><span>在用户端--余额明细中</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u92" class="ax_default paragraph">
-        <img id="u92_img" class="img " src="images/余额退款/u92.png"/>
-        <!-- Unnamed () -->
-        <div id="u93" class="text" style="visibility: visible;">
-          <p><span>变更类型：余额退款</span></p><p><span>时间：余额退款时间</span></p><p><span>数值：余额退款金额，非实退金额</span></p>
-        </div>
-      </div>
-
-      <!-- Unnamed (Rectangle) -->
-      <div id="u94" class="ax_default box_1">
-        <img id="u94_img" class="img " src="images/余额退款/u50.png"/>
-        <!-- Unnamed () -->
-        <div id="u95" class="text" style="visibility: visible;">
-          <p><span>在订单详情中</span></p>
+          <p><span>不在交易订单中展示，仅在退款订单中展示</span></p>
         </div>
       </div>
     </div>
